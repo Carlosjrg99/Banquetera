@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.Master.cs" Inherits="PracticaHotel.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>
+        <asp:ContentPlaceHolder ID="titulo" runat="server">
+            Placeholder
+        </asp:ContentPlaceHolder>
+    </title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="background-color:#1c1c1c; color: whitesmoke; width:100%; height:8vh">
+                <h1 style="text-align:center">
+                    <asp:ContentPlaceHolder ID="tituloPagina" runat="server">
+                        Placeholder
+                    </asp:ContentPlaceHolder>
+                </h1>
+        </div>
+        <section style="width:100%; height:87vh">
+            <div style="background-color:lightsteelblue; float:left; height:87vh; width:15%; display:inline-block">
+                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" ImageSet="Simple">
+                    <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
+                    <NodeStyle Font-Names="Tahoma" Font-Size="10pt" ForeColor="Black" HorizontalPadding="0px" NodeSpacing="0px" VerticalPadding="0px" />
+                    <ParentNodeStyle Font-Bold="False" />
+                    <SelectedNodeStyle Font-Underline="True" ForeColor="#5555DD" HorizontalPadding="0px" VerticalPadding="0px" />
+                </asp:TreeView>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+            </div>
+            <div style="background-color:ghostwhite; float:right; margin:0%; height:87vh; width:85%; display:inline-block">
+                <div style="background-color:ghostwhite; text-align:center">
+                    <asp:ContentPlaceHolder ID="contenido" runat="server">
+                        Placeholder
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </section>
+        <footer style="background-color:#1c1c1c; color:whitesmoke; text-align:center; height:5vh">
+      		<span>Carlos Ron &copy; 2021 - Sección 358</span>
+		</footer>
+    </form>
+</body>
+</html>

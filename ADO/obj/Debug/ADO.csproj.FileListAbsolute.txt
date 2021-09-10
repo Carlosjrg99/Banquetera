@@ -1,0 +1,10 @@
+D:\Archivos\Otros\Proyectos\INACAP\Visual Studio\Prueba4\ADO\bin\Debug\ADO.dll.config
+D:\Archivos\Otros\Proyectos\INACAP\Visual Studio\Prueba4\ADO\bin\Debug\ADO.dll
+D:\Archivos\Otros\Proyectos\INACAP\Visual Studio\Prueba4\ADO\bin\Debug\ADO.pdb
+D:\Archivos\Otros\Proyectos\INACAP\Visual Studio\Prueba4\ADO\bin\Debug\EntityFramework.dll
+D:\Archivos\Otros\Proyectos\INACAP\Visual Studio\Prueba4\ADO\bin\Debug\EntityFramework.xml
+D:\Archivos\Otros\Proyectos\INACAP\Visual Studio\Prueba4\ADO\obj\Debug\ADO.csprojAssemblyReference.cache
+D:\Archivos\Otros\Proyectos\INACAP\Visual Studio\Prueba4\ADO\obj\Debug\ADO.csproj.CoreCompileInputs.cache
+D:\Archivos\Otros\Proyectos\INACAP\Visual Studio\Prueba4\ADO\obj\Debug\ADO.csproj.CopyComplete
+D:\Archivos\Otros\Proyectos\INACAP\Visual Studio\Prueba4\ADO\obj\Debug\ADO.dll
+D:\Archivos\Otros\Proyectos\INACAP\Visual Studio\Prueba4\ADO\obj\Debug\ADO.pdb

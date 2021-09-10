@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="eventos_pruebaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="eventos">
+    <Key>
+      <PropertyRef Name="id_evento" />
+    </Key>
+    <Property Name="id_evento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_contacto" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="direccion" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="correo_electronico" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="telefono" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="fecha_evento" Type="datetime" Nullable="false" />
+    <Property Name="cantidad_personas" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="eventos_pruebaModelStoreContainer">
+    <EntitySet Name="eventos" EntityType="Self.eventos" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
